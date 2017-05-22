@@ -1,0 +1,23 @@
+nav {
+  background-color: green;
+  height: 100px
+}
+
+li {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover > .dropdown-content {
+  display: inline;
+  right:-40px;
+}
